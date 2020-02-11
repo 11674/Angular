@@ -1,0 +1,5 @@
+/* New declaration of invalid forms from the new documentation of BootStrap  */
+
+input:invalid {
+  background-color: #ffdddd;
+}
