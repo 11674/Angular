@@ -1,0 +1,13 @@
+<div class="jumbotron jumbotron-fluid text-center">
+  <div class="container">
+    <h1 class="display-4">APPLICACIÓN PELÍCULA</h1>
+    <p class="lead">Esta es una applicación de películas</p>
+  </div>
+</div>
+
+
+<div class="container">
+  <app-slide [peliculas]="cartelera|slice:0:6" titulo="Películas en Cartelera"></app-slide>
+    <app-slide [peliculas]="populares|slice:0:6" titulo="Películas Populares"></app-slide>
+      <app-slide [peliculas]="popularesNinos|slice:0:6" titulo="Películas para los Pequeños"></app-slide>
+</div>
