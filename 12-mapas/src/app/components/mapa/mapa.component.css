@@ -1,0 +1,19 @@
+agm-map {
+  height: 600px;
+  width: 100%;
+}
+
+p {
+  
+   line-height: 1.2;
+   font-size: 1em;
+   background-color: black;
+   padding: 2px;
+}
+
+strong {
+
+  background-color: black;
+  padding: 2px;
+
+}
